@@ -34,7 +34,7 @@ btnArticleHobby.addEventListener('click', () => {
                                 `;
         isOpenHobby = true;
         hobby.insertBefore(hobbyText, btnArticleHobby);
-        btnArticleHobby.textContent = 'Zamknij!';
+        btnArticleHobby.textContent = 'Hobby!';
         console.log(isOpenHobby);
     } else {
         hobby.parentNode.removeChild(hobbyText);
@@ -53,7 +53,7 @@ btnArticleInteresting.addEventListener('click', () => {
                                         PHP&MySQL`;
         isOpenInteresting = true;
         interesting.insertBefore(interestingText, btnArticleInteresting);
-        btnArticleInteresting.textContent = 'Zamknij!';
+        btnArticleInteresting.textContent = 'Zainteresowania!';
         console.log(isOpenInteresting);
     } else {
         interesting.parentNode.removeChild(interestingText);
@@ -76,7 +76,7 @@ btnArticleAboutMe.addEventListener('click', () => {
                                     Kolor oczu: Niebieski`;
         isOpenAboutMe = true;
         aboutme.insertBefore(aboutMeText, btnArticleAboutMe);
-        btnArticleAboutMe.textContent = 'Zamknij!';
+        btnArticleAboutMe.textContent = 'O mnie!';
         console.log(isOpenAboutMe);
     } else {
         aboutme.parentNode.removeChild(aboutMeText);
